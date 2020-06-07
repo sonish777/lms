@@ -1,0 +1,23 @@
+extends base
+
+block title
+    title #{title}
+
+block content
+
+    // Default form login
+    form.text-center.border.border-light.p-5.form-signin
+        p.h4.mb-4 SIGN IN
+        // Email
+        input#email.form-control.mb-4(type='email' placeholder='E-mail')
+        // Password
+        input#password.form-control.mb-4(type='password' placeholder='Password')
+        .d-flex.justify-content-around
+
+        // Sign in button
+        button#login.btn.btn-info.btn-block.my-4 Sign in
+        // Register
+        p
+            | Not a member?
+            a(href='/register') Register
+

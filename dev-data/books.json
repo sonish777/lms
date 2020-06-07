@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Physics for Scientists and Engineers",
+    "author": ["Paul A Tipler", "Gene Mosca"],
+    "quantity": 20,
+    "category": "5ed761f261d6a049a513d62c",
+    "publishedAt": "2003/06/08",
+    "details": "",
+    "tags": ["physics", "science"],
+    "coverImage": "physics-for-scientists-and-engineers.jpg"
+  },
+  {
+    "name": "Smart Physics Single Course",
+    "author": ["Tim  Stelzer", "Gene Mosca"],
+    "quantity": 10,
+    "category": "5ed761f261d6a049a513d62c",
+    "publishedAt": "2008/06/08",
+    "details": "",
+    "tags": ["physics", "science"],
+    "coverImage": "smart-physics.jpg"
+  },
+  {
+    "name": "Chemistry The Central Science",
+    "author": ["Theodore L. Brown", "Eugene Lemay"],
+    "quantity": 80,
+    "category": "5ed7620461d6a049a513d62e",
+    "publishedAt": "1977/02/02",
+    "details": "The book provides the basis of modern chemistry that every student needs for their professional development and as preparation for more complex chemistry courses. It also offers features that facilitate learning and serve as a guide for students to acquire a conceptual understanding and the skills needed to solve problems",
+    "tags": ["chemistry", "science", "chimie"],
+    "coverImage": "chemistry-the-central-science.jpg"
+  },
+  {
+    "name": "Biology Laboratory Manual",
+    "author": ["Sylvia S. Mader"],
+    "quantity": 5,
+    "category": "5ed761fb61d6a049a513d62d",
+    "publishedAt": "1985/11/08",
+    "details": "",
+    "tags": ["biology", "science", "manual"],
+    "coverImage": "biology-laboratory-manual.jpg"
+  },
+  {
+    "name": "Calculus",
+    "author": ["Howard Anton", "Stephen Davis"],
+    "quantity": 20,
+    "category": "5ed761a81377985aed329145",
+    "publishedAt": "2008/06/08",
+    "details": "",
+    "tags": ["calculus", "mathematics"],
+    "coverImage": "calculus.jpg"
+  },
+  {
+    "name": "American History",
+    "author": ["Alan Brinkley"],
+    "quantity": 100,
+    "category": "5ed8eb1ffdb9a84fd14a3845",
+    "publishedAt": "1900/12/22",
+    "details": "",
+    "tags": ["history", "united-states"],
+    "coverImage": "american-history.jpg"
+  },
+  {
+    "name": "The Challenge of Democracy",
+    "author": ["Kenneth Janda"],
+    "quantity": 90,
+    "category": "5ed8eb1ffdb9a84fd14a3845",
+    "publishedAt": "1987/10/12",
+    "details": "",
+    "tags": ["history", "politics", "democracy"],
+    "coverImage": "the-challenge-of-democracy.jpg"
+  },
+  {
+    "name": "Western Civilization",
+    "author": ["Marvin Perry", "Kenneth Janda"],
+    "quantity": 10,
+    "category": "5ed8eb1ffdb9a84fd14a3845",
+    "publishedAt": "1981/11/19",
+    "details": "",
+    "tags": ["civilization", "politics", "history"],
+    "coverImage": "western-civilization.jpg"
+  },
+  {
+    "name": "Tom Jones",
+    "author": ["Marvin Perry", "Henry Fielding"],
+    "quantity": 20,
+    "category": "5ed8eb1ffdb9a84fd14a3845",
+    "publishedAt": "1892/11/19",
+    "details": "",
+    "tags": ["history", "social-life", "fiction"],
+    "coverImage": "tom-jones.jpg"
+  },
+  {
+    "name": "Laws",
+    "author": ["Rand McNally"],
+    "quantity": 10,
+    "category": "5ed8eb1ffdb9a84fd14a3845",
+    "publishedAt": "1981/11/19",
+    "details": "",
+    "tags": ["history", "law", "social"],
+    "coverImage": "laws.jpg"
+  }
+]

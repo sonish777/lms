@@ -1,0 +1,85 @@
+extends base
+
+block content
+
+    section.section-my-books.row
+        .col.side-nav
+            div(style="text-align: center;")
+                img.avatar(src="/imgs/users/default.jpg", alt="Avatar")
+            h3.heading-secondary.my-name #{user.name}
+            ul.book-categories
+                li.book-category
+                    a(href="/admin/dashboard/add-books") Add Books
+                li.book-category
+                    a(href="/admin/dashboard") Books
+                li.book-category
+                    a(href="/admin/dashboard/book-issues") Issues
+
+
+        .col.books
+            div.text-center
+                | Categories : 
+                each category in categories
+                    a.admin-category-list(href=`/admin/dashboard/${category.slug}`) #{category.name}
+
+                if(currentCategory)
+                    h5(style="margin: 20px 0;") #{currentCategory}
+            - if(books.length > 0)
+                each book in books
+                    div.my-book(style="border-color: grey;" )
+                        img.my-book-img(src=`/imgs/books/${book.coverImage}` style="min-width: 150px;")
+                        .my-book-details
+                            h3.book-title #{book.name}
+                            p.issue-detail By :
+                                | 
+                                -const len = book.author.length
+                                each author,i in book.author  
+                                    span= `${(i+1) === len ? `${author.name}` : `${author.name},` }`
+                                    | 
+                            - if(book.details != "")
+                                p.margin-bottom-small
+                                    | Description: #{book.details}
+                            - else
+                                p.margin-bottom-small 
+                                    | Description: NO DETAIL PROVIDED
+
+                            p.margin-bottom-small
+                                | PUBLISHED IN: #{book.publishedAt.split("T")[0]}
+
+                            - if(book.quantity === 0)
+                                p.margin-bottom-small #{book.quantity} in stock | 
+                                    a(style="text-decoration: line-through; color: blue;") OUT OF STOCK
+                                        | 
+                                        i(class="fas fa-exclamation-triangle")
+                            - else
+                                p.margin-bottom-small #{book.quantity} in stock | 
+                                    a#issuebyadmin(href="#" data-bookid=`${book.id}` data-toggle='modal' data-target='#modalLoginForm') ISSUE THIS BOOK
+
+                            form
+                                label.new-stock-label NEW STOCK
+                                input#newStock.new-stock-value(type="number" min="0" max="100")
+                                button#updateStock(data-bookid=`${book.id}`) UPDATE
+            - else
+                p(style="text-align: center; margin-top: 50px;") No books
+
+    #modalLoginForm.modal.fade(tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true')
+        .modal-dialog(role='document')
+            .modal-content
+                .modal-header.text-center
+                    h4.modal-title.w-100.font-weight-bold USER DETAIL
+                    button.close(type='button' data-dismiss='modal' aria-label='Close')
+                        span(aria-hidden='true') &times;
+                .modal-body.mx-3.text-center
+                    input#email.form-control(type='email' placeholder="EMAIL")
+                    button#getuserdetail.btn.btn-default FIND
+                    div#user-detail.text-center(style="margin-top: 10px;")
+                    
+
+    // JQuery
+    script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+    // Bootstrap tooltips
+    script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js')
+    // Bootstrap core JavaScript
+    script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js')
+    // MDB core JavaScript
+    script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js')

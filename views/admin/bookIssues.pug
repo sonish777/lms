@@ -1,0 +1,101 @@
+extends base
+
+block content
+
+    section.section-my-books.row
+        .col.side-nav
+            div(style="text-align: center;")
+                img.avatar(src="/imgs/users/default.jpg", alt="Avatar")
+            h3.heading-secondary.my-name #{user.name}
+            ul.book-categories
+                li.book-category
+                    a(href="/admin/dashboard/add-books") Add Books
+                li.book-category
+                    a(href="/admin/dashboard") Books
+                li.book-category
+                    a(href="/admin/dashboard/book-issues") Issues
+
+        .col.books
+            h4.form-filter__heading FILTER SEARCH
+            form.form-filter
+                div.form-filter__status
+                    h5.form-filter__status-heading STATUS
+                    - if(filters.includes("pending"))
+                        input#status-value(type="checkbox", name="isActive" value="pending" checked)
+                    - else
+                        input#status-value(type="checkbox", name="isActive" value="pending")
+                    label.form-filter__status-label Pending
+                    br
+                    - if(filters.includes("true"))
+                        input#status-value(type="checkbox", name="isActive" value="true" checked)
+                    - else
+                        input#status-value(type="checkbox", name="isActive" value="true")
+                    label.form-filter__status-label Active
+                    br
+                    - if(filters.includes("false"))
+                        input#status-value(type="checkbox", name="isActive" value="false" checked)
+                    - else
+                        input#status-value(type="checkbox", name="isActive" value="false")
+                    label.form-filter__status-label Returned
+                    br
+                div.form-filter__email
+                    h5.form-filter__status-heading USER'S EMAIL
+                    input#searchValue(type="email" placeholder="search" value=`${email ? `${email}`: ''}`)
+            div.text-center.margin-bottom-small 
+                input#filter(type="button" value="Filter")
+
+
+            - if(bookIssues.length > 0)
+                each issue in bookIssues
+                    div.my-book(style="border-color: grey; position: relative;")
+                        img.my-book-img(src=`/imgs/books/${issue.book.coverImage}`)
+                        .my-book-details
+                            h3.book-title #{issue.book.name}
+                            p.issue-detail By :
+                                | 
+                                -const len = issue.book.author.length
+                                each author,i in issue.book.author  
+                                    span= `${(i+1) === len ? `${author.name}` : `${author.name},` }`
+                                    | 
+                            p.issue-detail Issued By :
+                                br
+                                | 
+                                span Name : #{issue.user.name} 
+                                br
+                                | 
+                                span Email : #{issue.user.email}
+                                br
+                                | On : 
+                                span #{issue.issueDate.toString().substring(0, 10)}
+                                br
+                                | For : 
+                                span #{issue.duration} Days
+                                br
+                                - if(issue.returnDate)
+                                    | Return Date : 
+                                    span #{issue.returnDate.toString().substring(0,10)}
+                                br
+                                - if(issue.isActive === 'false')
+                                    - if(issue.fine !== 0)
+                                        span.book-fine
+                                            | FINE : #{issue.fine} $
+                                        br
+                                | Status : 
+                                - if(issue.isActive === 'pending')
+                                    span.dark-text-warning PENDING 
+                                    a#pickedup.btn-absolute(href="#" style="background-color: cornflowerblue;"  data-issueid=`${issue._id}`) PICKED UP
+                                - else if(issue.isActive === 'false')
+                                    span.book-returned-text RETURNED
+                                - else
+                                    - const daysLeft = Math.round(( issue.returnDate - new Date())/(24 * 60 * 60 * 1000))
+                                    - if(daysLeft > 0)
+                                        span.dark-text(style="background-color: gold;") ACTIVE
+                                        a#returned.btn-absolute(href="#" style="background-color: gold;" data-issueid=`${issue._id}` data-bookid=`${issue.book.id}`) RETURNED
+                                    - else
+                                        span.dark-text LATE
+                                        input#fine.fine-absolute(type="number" min="0.5" placeholder="FINE")
+                                        a#lateReturned.btn-absolute(href="#" style="background-color: rgb(194, 51, 33);" data-issueid=`${issue._id}` data-bookid=`${issue.book.id}`) RETURNED
+
+            - else
+                h4.text-center NO BOOKS FOUND
+                                

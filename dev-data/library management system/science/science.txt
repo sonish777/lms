@@ -1,0 +1,67 @@
+{
+    "name": "Biology",
+    "author": ["Neil Alexander Campbell, Jane B. Reece, Lisa A. Urry, Michael L. Cain, Steven A. Wasserman, Peter V. Minorsky"],
+    "quantity": 10,
+    "category": "science",
+    "publishedAt": "1987/11/02",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Biology.jpg"
+  }
+  -----------------------------
+  {
+    "name": "Foundations of college chemistry",
+    "author": ["Morris Hein, Susan Arena, Susan Arena Morris Hein"],
+    "quantity": 1,
+    "category": "science",
+    "publishedAt": "1967/01/02",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Foundations of college chemistry.jpg"
+  }
+  -----------------------------
+   {
+    "name": "College physics",
+    "author": ["Raymond A. Serway, Jerry S. Faughn, Chris Vuille"],
+    "quantity": 15,
+    "category": "science",
+    "publishedAt": "1985/11/20",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "College physics.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Organic chemistry",
+    "author": ["John E. McMurry"],
+    "quantity": 50,
+    "category": "science",
+    "publishedAt": "1984/04/03",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Organic chemistry.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Environmental science",
+    "author": ["G. Tyler Miller, Scott Spoolman, G. Tyler Miller"],
+    "quantity": 05,
+    "category": "science",
+    "publishedAt": "1986/03/05",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Environmental science.jpg"
+  }
+  -----------------------------
+  
+   {
+    "name": "Geology",
+    "author": ["Stanley Chernicoff, Ramesh Venkatakrishnan, Donna Whitney"],
+    "quantity": 03,
+    "category": "science",
+    "publishedAt": "1994/04/09",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Geology.jpg"
+  }
+  -----------------------------

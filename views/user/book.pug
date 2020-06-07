@@ -1,0 +1,60 @@
+extends base
+
+mixin isActive(currentCategory, key, name)
+    - if(currentCategory === key)
+        li.book-category.active
+            a(href=`/books/category/${key}`) #{name}
+    - else
+        li.book-category
+            a(href=`/books/category/${key}`) #{name}
+
+block title
+    title #{title}
+
+block content
+    section.section-main-books.row
+        .col.side-nav
+            ul.book-categories
+                li(class=`${currentCategory ? 'book-category': 'book-category active' }`)
+                    a(href='/books') All
+                each category in categories
+                    +isActive(currentCategory, category.slug, category.name)
+
+        .col.books
+            .book-detail__layout
+                .book-detail__cover-container
+                    img.book-detail__cover(src=`../imgs/books/${book.coverImage}` alt='')
+                .book-detail__details-container
+                    h1.book-title.margin-bottom-small
+                        | #{book.name}
+
+                    h3.book-detail-author By :
+                        | 
+                        -const len = book.author.length
+                        each author,i in book.author  
+                            span= `${(i+1) === len ? `${author.name}` : `${author.name},` }`
+                            | 
+                    - if(book.details != "")
+                        h4.book-detail-text.margin-bottom-small
+                            | Description: #{book.details}
+                    - else
+                        h4.book-detail-text.margin-bottom-small 
+                            | Description: NO DETAIL PROVIDED
+
+                    h4.book-detail-date.margin-bottom-small
+                        | PUBLISHED IN: #{book.publishedAt.split("T")[0]}
+
+                    - if(book.quantity === 0)
+                        p.book-stock.stock-unavailable.margin-bottom-small #{book.quantity} in stock
+                    - else
+                        p.book-stock.stock-available.margin-bottom-small #{book.quantity} in stock
+
+                    .btn-container-book
+                        - if(book.quantity === 0)
+                            button#reservebook.btn-primary.btn-disabled(href="#" data-bookid=`${book._id}` disabled) Reserve
+                        - else
+                            - if(user)
+                                a#reservebook.btn-primary(href="#" data-userid=`${user._id}` data-bookid=`${book._id}`) Reserve this book
+                            - else
+                                a(href="/login") Login to reserve this book
+

@@ -1,0 +1,9 @@
+header.main-header
+    nav.main-nav
+        .logo-container
+            p.logo Bookshelf
+        
+        - if(user)
+            ul.main-nav__links
+                li.main-nav__link
+                    a#logoutAdmin(href='#') Logout

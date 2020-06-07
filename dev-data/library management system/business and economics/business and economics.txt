@@ -1,0 +1,68 @@
+{
+    "name": "Economics",
+    "author": ["Richard G. Lipsey, Christopher Ragan, Paul Courant, Paul Storer, Paul N. Courant, Douglas D. Purvis"],
+    "quantity": 100,
+    "category": "business and economics",
+    "publishedAt": "1966/12/02",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Economics.jpg"
+  }
+  -----------------------------
+  {
+    "name": "Contemporary business",
+    "author": ["Louis E. Boone, David L. Kurtz"],
+    "quantity": 15,
+    "category": "business and economics",
+    "publishedAt": "1976/01/02",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Contemporary business.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Business mathematics",
+    "author": ["Nelda W. Roueche, Helda Roueche, Virginia H. Graves"],
+    "quantity": 05,
+    "category": "business and economics",
+    "publishedAt": "1969/11/20",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Business mathematics.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Statistics for management and economics ",
+    "author": ["William Mendenhall, Mendenhall, Beaver"],
+    "quantity": 15,
+    "category": "business and economics",
+    "publishedAt": "1971/06/03",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Statistics for management and economics .jpg"
+  }
+  -----------------------------
+   {
+    "name": "Strategic management",
+    "author": ["Gregory G. Dess, Tom Lumpkin, G. T. Lumpkin, G.T. Lumpkin, Alan B. Eisner, Marilyn Taylor"],
+    "quantity": 35,
+    "category": "business and economics",
+    "publishedAt": "1993/07/05",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Strategic management.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Fundamentals of financial management",
+    "author": ["Eugene F. Brigham, Joel F. Houston"],
+    "quantity": 25,
+    "category": "business and economics",
+    "publishedAt": "1978/12/05",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Fundamentals of financial management.jpg"
+  }
+  -----------------------------
+  
+ 

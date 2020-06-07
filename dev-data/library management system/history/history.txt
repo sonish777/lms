@@ -1,0 +1,55 @@
+{
+    "name": "These United States: the questions of our past",
+    "author": ["Irwin Unger"],
+    "quantity": 10,
+    "category": "history",
+    "publishedAt": "1969/02/26",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "These United States the questions of our past.jpg"
+  }
+  -----------------------------
+  {
+    "name": "Western Civilization",
+    "author": ["Jackson J. Spielvogel"],
+    "quantity": 38,
+    "category": "history",
+    "publishedAt": "1900/06/14",
+    "details": "This best-selling text, Western Civilization, has helped over one million students learn about the present by exploring the past. Jack Spielvogel's engaging, chronological narrative weaves the political, economic, social, religious, intellectual, cultural, and military aspects of history into a gripping story that is as memorable as it is instructive. Each chapter offers a substantial introduction and conclusion, providing students a context for these disparate themes. The clear narrative of a single gifted author makes it easy for students to follow the story of Western civilization. Spielvogel gives the book depth by including over 150 maps and excerpts of over 200 primary sources -- including official documents, poems, and songs -- that enliven the past while introducing students to source material that forms the basis of historical scholarship.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Western Civilization.jpg"
+  }
+  -----------------------------
+  {
+    "name": "The Western heritage",
+    "author": ["Donald Kagan, Steven Ozment, Frank M. Turner, Donald M. Kagan, A. Daniel Frankforter"],
+    "quantity": 12,
+    "category": "history",
+    "publishedAt": "1979/07/20",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The Western heritage.jpg"
+  }
+  -----------------------------
+  {
+    "name": "The Unfinished Nation",
+    "author": ["Alan Brinkley"],
+    "quantity": 42,
+    "category": "history",
+    "publishedAt": "1993/04/16",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The Unfinished Nation.jpg"
+  }
+  -----------------------------
+  {
+    "name": "Traditions & encounters",
+    "author": ["Jerry H. Bentley, Herbert Ziegler, Herbert F. Ziegler, Jerry Bentley, Heather Streets"],
+    "quantity": 01,
+    "category": "history",
+    "publishedAt": "1999/02/06",
+    "details": "Traditions & Encounters: A Brief Global History brings focus to the human experience. It turns the story of world history into a cohesive narrative by putting events into perspective and creating a framework for cross-cultural comparisons. It tells the story of people in history, the traditions they embraced, and the encounters with other cultures that brought about inevitable change. ",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Traditions & encounters.jpg"
+  }
+  -----------------------------

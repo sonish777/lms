@@ -1,0 +1,16 @@
+extends base
+
+block content
+
+    // Default form login
+    form.text-center.border.border-light.p-5.form-signin
+        p.h4.mb-4 BOOKSHELF | ADMIN
+        // Email
+        input#emailAdmin.form-control.mb-4(type='email' placeholder='E-mail')
+        // Password
+        input#passwordAdmin.form-control.mb-4(type='password' placeholder='Password')
+        .d-flex.justify-content-around
+
+        // Sign in button
+        button#loginAdmin.btn.btn-info.btn-block.my-4 Sign in
+

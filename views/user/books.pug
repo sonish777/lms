@@ -1,0 +1,45 @@
+extends base
+
+mixin isActive(currentCategory, key, name)
+    - if(currentCategory === key)
+        li.book-category.active
+            a(href=`/books/category/${key}`) #{name}
+    - else
+        li.book-category
+            a(href=`/books/category/${key}`) #{name}
+
+block title
+    title #{title}
+
+block content
+
+    section.section-main-books.row
+        .col.side-nav
+            ul.book-categories
+                li(class=`${currentCategory ? 'book-category': 'book-category active' }`)
+                    a(href='/books') All
+                each category in categories
+                    +isActive(currentCategory, category.slug, category.name)
+
+        .col.books
+            .books-grid
+                -if (books)
+                    each book in books
+                        a(href=`/book/${book.id || book._id}`)
+                            .card.grid-card
+                                img.book-cover(src=`/imgs/books/${book.coverImage}` alt='Book Cover')
+                                .book-details
+                                    p.book-title #{book.name}
+                                    p.book-author By :
+                                        | 
+                                        -const len = book.author.length
+                                        each author,i in book.author  
+                                            span= `${(i+1) === len ? `${author.name}` : `${author.name},` }`
+                                            | 
+                                    - if(book.quantity === 0)
+                                        p.book-stock.stock-unavailable #{book.quantity} in stock
+                                    - else
+                                        p.book-stock.stock-available #{book.quantity} in stock
+
+                -else
+                    p.empty-message No Books Yet

@@ -1,0 +1,44 @@
+ {
+    "name": "Leonardo",
+    "author": ["Leonardo da Vinci, Kunster, Erfinder, Wissenschaftler, Michael Desmond, Carlo Pedretti"],
+    "quantity": 15,
+    "category": "architecture",
+    "publishedAt": "1900/09/13",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Leonardo.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Frotiers Peace Treaties, and International Organization",
+    "author": ["Vincent van Gogh, Colta Ives, Sjraar van Heugten, Marije Vellekoop, Ingo F. Walther, Rainer Metzger, Louis van Tilborgh, Johannes von Uitert, Schapiro, Meyer"],
+    "quantity": 17,
+    "category": "architecture",
+    "publishedAt": "1914/04/23",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Frotiers Peace Treaties, and International Organization.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Zaha Hadid",
+    "author": ["Zaha Hadid, Joseph Giovannini, Charles Desmarais, Detlef Mertins, Patrik Schumacher, Gordana Fontana Giusti, Patrick Schumacher"],
+    "quantity":30,
+    "category": "architecture",
+    "publishedAt": "1989/01/13",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Zaha Hadid.jpg"
+  }
+  -----------------------------
+   {
+    "name": "The stones of Venice",
+    "author": ["John Ruskin"],
+    "quantity": 12,
+    "category": "architecture",
+    "publishedAt": "1951/11/19",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The stones of Venice.jpg"
+  }
+  -----------------------------

@@ -1,0 +1,41 @@
+extends base
+
+block title
+    title #{title}
+
+block content
+    section.video-container
+        video.video(autoplay='' muted='' loop='')
+            source(src='./imgs/bookshelf.mp4' type='video/mp4')
+        .overlay
+        h1.heading-primary
+            | Join us to enjoy unlimited books and novels
+
+
+    each category in booksByCategory
+        section.section-book
+            h2.heading-secondary
+                | Latest in #{category.category.name}
+
+            .book-cards
+                each book in category.books
+                    .card
+                        img.book-cover(src=`/imgs/books/${book.coverImage}` alt='Book Cover')
+                        .book-details
+                            p.book-title #{book.name}
+                            p.book-author By :
+                                | 
+                                -const len = book.author.length
+                                each author,i in book.author  
+                                    span= `${(i+1) === len ? `${author.name}` : `${author.name},` }`
+                                    | 
+                            - if(book.quantity === 0)
+                                p.book-stock.stock-unavailable #{book.quantity} in stock
+                            - else
+                                p.book-stock.stock-available #{book.quantity} in stock
+
+            .btn-container
+                a.btn-primary(href=`/books/category/${category.category.slug}`)
+                    | View more
+
+

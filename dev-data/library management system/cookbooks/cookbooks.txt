@@ -1,0 +1,66 @@
+ {
+    "name": "On food and cooking",
+    "author": ["Harold McGee"],
+    "quantity": 60,
+    "category": "cook books",
+    "publishedAt": "1984/04/26",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "On food and cooking.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Garlic and Sapphires: The Secret Life of a Critic in Disguise ",
+    "author": ["Ruth Reichl"],
+    "quantity": 37,
+    "category": "cook books",
+    "publishedAt": "2005/04/26",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Garlic and Sapphires: The Secret Life of a Critic in Disguise .jpg"
+  }
+  -----------------------------
+   {
+    "name": "How to Cook Everything",
+    "author": ["Mark Bittman"],
+    "quantity": 23,
+    "category": "cook books",
+    "publishedAt": "1998/09/26",
+    "details": "How To Cook Everything (John Wiley & Sons, 1998, ISBN 0-02-861010-5) is a general cooking reference written by New York Times food writer Mark Bittman and aimed at United States home cooks. It is the flagship volume of a series of books that include several narrow-subject books about matters such as convenience cooking and vegetarian cuisine, as well as a second volume, How To Cook Everything: Vegetarian, published in 2007, and a second edition with a reduced emphasis on professional techniques in October 2008.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "How to Cook Everything.jpg"
+  }
+  -----------------------------
+   {
+    "name": "Double Shot (Goldy Bear Mystery #12)",
+    "author": ["Diane Mott Davidson"],
+    "quantity": 89,
+    "category": "cook books",
+    "publishedAt": "2004/05/26",
+    "details": "New York Times bestselling author Diane Mott Davidson has taken readers by storm with clever mysteries filled with tantalizing plots and mouthwatering recipes. In her twelfth novel -- her tastiest tale yet -- the ingenious storyteller whips up a rich souffle of murder and mischief.The governor of Colorado has commuted the prison sentence of Goldy Schulz's ultra-handsome, ultra-charming, ultra-wealthy, ultra-venal ex-husband, Dr. John Richard Korman, otherwise known to Goldy as the Jerk. He's released, and soon afterward Goldy becomes the victim of threats, rumors, and violence.Then there's a murder and suspicion centers on Goldy. Suddenly, she is faced with the challenge of running her successful catering business while fending off two persistent detectives.Caught in a web of secrets and lies that could tear her family apart, Goldy must use all of her considerable powers of detection to find the real killer before she herself becomes a target.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Double Shot (Goldy Bear Mystery #12).jpg"
+  }
+  -----------------------------
+   {
+    "name": "Betty Crocker Cookbook: Everything You Need to Know to Cook Today",
+    "author": ["Betty Crocker"],
+    "quantity": 45,
+    "category": "cook books",
+    "publishedAt": "2002/10/16",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Betty Crocker Cookbook: Everything You Need to Know to Cook Today.jpg"
+  }
+  -----------------------------
+   {
+    "name": "How to Eat: The Pleasures and Principles of Good Food",
+    "author": ["Nigella Lawson"],
+    "quantity": 39,
+    "category": "cook books",
+    "publishedAt": "1999/08/16",
+    "details": "A chatty, sometimes cheeky, celebration of home-cooked meals."—USA TodayThrough her wildly popular television shows, her five bestselling cookbooks, her line of kitchenware, and her frequent media appearances, Nigella Lawson has emerged as one of the food world's most seductive personalities. How to Eat is the book that started it all—Nigella's signature, all-purposed cookbook, brimming with easygoing mealtime strategies and 350 mouthwatering recipes, from a truly sublime Tarragon French Roast Chicken to a totally decadent Chocolate Raspberry Pudding Cake. Here is Nigella's total (and totally irresistible) approach to food—the book that lays bare her secrets for finding pleasure in the simple things that we cook and eat every day."[Nigella] brings you into her life and tells you how she thinks about food, how meals come together in her head...and how she cooks for family and friends...A breakthrough...with hundreds of appealing and accessible recipes."—Amanda Hesser, The New York Times"Nigella Lawson serves up irony and sensuality with her comforting recipes."—Los Angeles Times"Nigella Lawson is, whisks down, Britain's funniest and sexiest food writer, a raconteur who is delicious whether detailing every step on the way towards a heavenly roast chicken and root vegetable couscous or explaining why 'cooking is not just about joining the dots.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "How to Eat The Pleasures and Principles of Good Food.jpg"
+  }
+  -----------------------------

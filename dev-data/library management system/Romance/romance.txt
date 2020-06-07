@@ -1,0 +1,105 @@
+{
+    "name": "Far From the Madding Crowd",
+    "author": ["Thomas Hardy"],
+    "quantity": 10,
+    "category": "Romance",
+    "publishedAt": "1874/02/11",
+    "details": "Independent and spirited Bathsheba Everdene has come to Weatherbury to take up her position as a farmer on the largest estate in the area. Her bold presence draws three very different suitors: the gentleman-farmer Boldwood, soldier-seducer Sergeant Troy and the devoted shepherd Gabriel Oak. Each, in contrasting ways, unsettles her decisions and complicates her life, and tragedy ensues, threatening the stability of the whole community. The first of his works set in the fictional county of Wessex, Hardy's novel of swift passion and slow courtship is imbued with his evocative descriptions of rural life and landscapes, and with unflinching honesty about sexual relationships.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Far from the Madding Crowd.jpg"
+  }
+
+-----------------------------
+
+{
+    "name": "The Age of Innocence",
+    "author": ["Edith Wharton"],
+    "quantity": 100,
+    "category": "Romance",
+    "publishedAt": "1920/07/21",
+    "details": "Edith Wharton's most famous novel, written immediately after the end of the First World War, is a brilliantly realized anatomy of New York society in the 1870s, the world in which she grew up, and from which she spent her life escaping. Newland Archer, Wharton's protagonist, charming, tactful, enlightened, is a thorough product of this society; he accepts its standards and abides by its rules but he also recognizes its limitations. His engagement to the impeccable May Welland assures him of a safe and conventional future, until the arrival of May's cousin Ellen Olenska puts all his plans in jeopardy. Independent, free-thinking, scandalously separated from her husband, Ellen forces Archer to question the values and assumptions of his narrow world. As their love for each other grows, Archer has to decide where his ultimate loyalty lies. - Back cover.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The Age of Innocence.jpg"
+  }
+-----------------------------------
+
+{
+    "name": "The ambassadors",
+    "author": ["Henry James Jr."],
+    "quantity": 10,
+    "category": "Romance",
+    "publishedAt": "1903/05/17",
+    "details": " Chad Newsome has gone to Paris. He is charmed by Old World fascinations and caught up in the leisurely craft and bohemian direction of European worldliness. An older woman of rank and adventurous but subtle skill, Madame de Vionnet, strokes his ego and does her best to keep Chad in Paris indefinitely. Chad's mother lives in Woollett, Mass., and wants her son to return to run the family business. Mrs. Newsome is an invalid and cannot go to Paris to fetch her son herself, so she employs Lambert Strether and Sarah Pocock to return Chad to Massachusetts. Sarah has been to Paris before and is aware of its attractiveness, so her determination to succeed in this task is fixed and uncompromising. Strether is of later middle age, however, and inspired by the fairytale of a beautiful life in Europe. Mrs. Newsome has promised to marry Strether if he can bring Chad home. Strether is completely enamored by the Parisian character and its enchantments and has a difficult time completing his mission. The drama of reestablishing Chad in business in America and of coming to terms with the mythological romance of France leaves the reader unbalanced, trying to recover equilibrium in the real world. Those involved with Chad's rescue are compelled to recognize the deep intimacies of personal attachment and the accepted proprieties of direct consequence. The success and failures of such an undertaking are unpredictable. The result of every character's attempt to steer Chad rightly is a strange conglomeration of role reversal, fantasy, and truth. ",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The Ambassadors.jpg"
+  }
+-------------------------------------------
+{
+    "name": "Can you forgive her?",
+    "author": ["Anthony Trollope"],
+    "quantity": 50,
+    "category": "Romance",
+    "publishedAt": "1864/05/27",
+    "details": " Alice Vavasor cannot decide whether to marry her ambitious but violent cousin George or the upright and gentlemanly John Grey - and finds herself accepting and rejecting each of them in turn. Increasingly confused about her own feelings and unable to forgive herself for such vacillation, her situation is contrasted with that of her friend Lady Glencora - forced to marry the rising politician Plantagenet Palliser in order to prevent the worthless Burgo Fitzgerald from wasting her vast fortune. In asking his readers to pardon Alice for her transgression of the Victorian moral code, Trollope created a telling and wide-ranging account of the social world of his day. ",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Can You Forgive Her.jpg"
+  }
+------------------------------------------
+{
+    "name": "Death on the Nile",
+    "author": ["Agatha Christie"],
+    "quantity": 50,
+    "category": "Romance",
+    "publishedAt": "1937/07/17",
+    "details": " The tranquillity of a cruise along the Nile was shattered by the discovery that Linnet Ridgeway ( Linnet Doyle) had been shot through the head. She was young, stylish, rich and beautiful. A girl who had everything... until she lost her life.
+Hercule Poirot recalled an earlier outburst by a fellow passenger: 'I'd like to put my dear little pistol against her head and just press the trigger.' Yet in this exotic setting nothing was ever quite what it seemed... ",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Death on the Nile.jpg"
+  }
+--------------------------------------
+
+{
+    "name": "Framley Parsonage",
+    "author": ["Anthony Trollope"],
+    "quantity": 20,
+    "category": "Romance",
+    "publishedAt": "1861/01/20",
+    "details": " When young Mark Robarts was leaving college, his father might well declare that all men began to say all good things to him, and to extol his fortune in that he had a son blessed with an excellent disposition. This father was a physician living at Exeter. He was a gentleman possessed of no private means, but enjoying a lucrative practice, which had enabled him to maintain and educate a family with all the advantages which money can give in this country. ",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Framley Parsonage.jpg"
+  }
+------------------------------------------------
+{
+    "name": "Howards End",
+    "author": ["E. M. Forster"],
+    "quantity": 2,
+    "category": "Romance",
+    "publishedAt": "1910/11/10",
+    "details": " Howards End is a novel by E. M. Forster about social conventions, codes of conduct and relationships in turn-of-the-century England. A strong-willed and intelligent woman refuses to allow the pretensions of her husband's smug English family to ruin her life. Howards End is considered by some to be Forster's masterpiece",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Howards End.jpg"
+  }
+------------------------------------------
+{
+    "name": "The woodlanders",
+    "author": ["Thomas Hardy"],
+    "quantity": 12,
+    "category": "Romance",
+    "publishedAt": "1800/12/20",
+    "details": " When country-girl Grace Melbury returns home from her middle-class school she feels she has risen above her suitor, the simple woodsman Giles Winterborne. Though marriage had been discussed between her and Giles, Grace finds herself captivated by Dr Edred Fitzpiers, a sophisticated newcomer to the area - a relationship that is encouraged by her socially ambitious father. Hardy's novel of betrayal, disillusionment and moral compromise depicts a secluded community coming to terms with the disastrous impact of outside influences. And in his portrayal of Giles Winterborne, Hardy shows a man who responds deeply to the forces of the natural world, thought they ultimately betray him.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The woodlanders.jpg"
+  }
+---------------------------------------------------
+{
+    "name": "Love story",
+    "author": ["Erich Segal"],
+    "quantity": 5,
+    "category": "Romance",
+    "publishedAt": "1970/05/10",
+    "details": " Oliver Barrett IV, a wealthy jock from a stuffy WASP family on his way to a Harvard degree and a career in law . . . Jenny Cavilleri, a sharp-tongued, working-class beauty studying music at Radcliffe . . .
+Opposites in nearly every way, Oliver and Jenny are kindred spirits from vastly different worlds. Falling deeply and powerfully, their attraction to one another defies everything they have ever believed�as they share a passion far greater than anything they dreamed possible . . . and explore the wonder of a love that must end too soon.
+One of the most adored novels of our time, this is the book that defined a generation�a story of uncompromising devotion, of life as it really is . . . and love that changes everything.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Love story.jpg"
+  }

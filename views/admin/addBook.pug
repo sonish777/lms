@@ -1,0 +1,56 @@
+extends base
+
+block content
+
+    section.section-my-books.row
+        .col.side-nav
+            div(style="text-align: center;")
+                img.avatar(src="/imgs/users/default.jpg", alt="Avatar")
+            h3.heading-secondary.my-name #{user.name}
+            ul.book-categories
+                li.book-category
+                    a(href="/admin/dashboard/add-books") Add Books
+                li.book-category
+                    a(href="/admin/dashboard") Books
+                li.book-category
+                    a(href="/admin/dashboard/book-issues") Issues
+
+
+
+        .col.books
+
+            form.text-center.border.border-light.p-5.form-signup
+                p.h4 ADD BOOK
+                //- .form-row
+                //-     .col
+                //-         // First name
+                //-         input#name.form-control(type='text' placeholder='First name')
+                //-     .col
+                //-         // Last name
+                //-         input#lastname.form-control(type='text' placeholder='Last name')
+                // Name
+                input#name.form-control.mb-4(type='text' placeholder='Book Name')
+                // Authors
+                small * Add author names separated by comma
+                input#authors.form-control.mb-4(type='text' placeholder='Book Authors')
+                // Quantity
+                input#quantity.form-control.mb-4(type="number" placeholder="Quantity" min="1")
+
+                // Category
+                select#category.form-control.mb-4
+                    option(value="") Select Category
+                    each category in categories
+                        option(value=`${category._id}`) #{category.name}
+
+                // Published date
+                label Published Date
+                input#publishedDate.form-control.mb-4(type="date" placeholder="Published Date")
+
+                // Description
+                textarea#details.form-control.mb-4(name="", cols="30", rows="5", placeholder="Book Desciption")
+
+                // Cover Image
+                input#image.form-control.mb-4(type="file" accept="image/*")
+
+                // Sign up button
+                button#addbook.btn.btn-info.my-4.btn-block Add

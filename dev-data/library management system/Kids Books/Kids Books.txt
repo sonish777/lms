@@ -1,0 +1,66 @@
+{
+    "name": "Johnny Lion's Book ",
+    "author": ["Edith Thacher Hurd"],
+    "quantity": 10,
+    "category": "kids books",
+    "publishedAt": "1965/11/19",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Johnny Lion's Book .jpg"
+  }
+  -------------------------
+  {
+    "name": "Daisy and the Egg",
+    "author": ["Jane Simmons"],
+    "quantity": 20,
+    "category": "kids books",
+    "publishedAt": "1998/12/19",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Daisy and the Egg.jpg"
+  }
+  ----------------------------------
+  {
+    "name": "The Poky Little Puppy",
+    "author": ["Janette Sebring Lowrey"],
+    "quantity": 50,
+    "category": "kids books",
+    "publishedAt": "1942/07/15",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The Poky Little Puppy.jpg"
+  }
+  ----------------------------------
+  {
+    "name": "See How They Grow",
+    "author": ["Mary Ling"],
+    "quantity": 30,
+    "category": "kids books",
+    "publishedAt": "1992/05/25",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture""],
+    "coverImage": "See How They Grow.jpg"
+  }
+   ----------------------------------
+  {
+    "name": "The Little Wood Duck",
+    "author": ["Brian Wildsmith"],
+    "quantity": 3,
+    "category": "kids books",
+    "publishedAt": "1972/02/25",
+    "details": "Once upon a time, in an old tree, beside a lake, a mother Wood Duck built her nest.",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "The Little Wood Duck.jpg"
+  }
+   ----------------------------------
+  {
+    "name": "Baby farm animals",
+    "author": ["Garth Williams"],
+    "quantity": 3,
+    "category": "kids books",
+    "publishedAt": "1973/04/05",
+    "details": "No Details",
+    "tags": ["computer science", "romance", "kids books", "science", "business and economics", "history", "cook books", "architecture"],
+    "coverImage": "Baby farm animals.jpg"
+  }
+  -------------------------

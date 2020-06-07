@@ -1,0 +1,74 @@
+extends base
+
+block title
+    title #{title}
+
+block content
+
+    section.section-my-books.row
+        .col.side-nav
+            div(style="text-align: center;")
+                img.avatar(src="/imgs/users/default.jpg", alt="Avatar")
+            h3.heading-secondary.my-name #{user.name}
+            p.user-title
+                i(class="fas fa-map-marker")
+                |   #{user.address}
+            p.user-title 
+                i(class="fas fa-at")
+                |   #{user.email}
+            p.user-title 
+                i(class="fas fa-mobile-alt")
+                |  #{user.phone}
+
+        .col.books
+            - if(books.length > 0)
+                each book in books
+                    -let className = "";
+                    - let daysLeft = 0;
+                    - if(book.returnDate)
+                        -daysLeft = Math.round(( book.returnDate - new Date())/(24 * 60 * 60 * 1000))
+                        - if(!book.isActive)
+                            -className = "book-returned"
+                        - else if(daysLeft <= 0 && book.isActive)
+                            - className = "dark-border"
+                    div.my-book(class=`${className}`)
+                        img.my-book-img(src=`/imgs/books/${book.book.coverImage}`)
+                        .my-book-details
+                            h3.book-title #{book.book.name}
+                            p.issue-detail By :
+                                | 
+                                -const len = book.book.author.length
+                                each author,i in book.book.author  
+                                    span= `${(i+1) === len ? `${author.name}` : `${author.name},` }`
+                                    | 
+                            - const issuedDate = book.issueDate.toString().substring(0, 10);
+                            p.issue-detail ISSUDED ON : #{issuedDate}
+
+                            - if (book.returnDate)
+                                - const returnDate = book.returnDate.toString().substring(0, 10);
+                                p.issue-detail RETURN BY : #{returnDate}
+                                - if(book.isActive === 'false')
+                                    - if(book.fine !== 0)
+                                        p.issue-detail.book-fine FINE : #{book.fine} $
+                                    p.issue-detail.book-returned-text BOOK RETURNED
+
+                                - else if(daysLeft > 0 && book.isActive === 'true')
+                                    p.issue-detail DAYS LEFT : #{daysLeft}
+
+                                - else
+                                    p.issue-detail.dark-text * Please return the book within 2 days of return-date to avoid any kinds of fine.
+                            
+                            - else
+                                button#removereservation.btn-remove(data-issueid=`${book._id}`) Cancel
+                                p.issue-detail.dark-text-warning * Please visit the library and get your book soon.
+
+
+            - else
+                p(style="text-align: center;") You have not issued any books yet.
+                div(style="text-align: center;")
+                    a(href="/books") Explore Books
+
+
+                        
+
+                    

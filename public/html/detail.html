@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <div class="logo-container">
+          <p class="logo">Bookshelf</p>
+        </div>
+        <ul class="main-nav__links">
+          <li class="main-nav__link"><a href="index.html">Home</a></li>
+          <li class="main-nav__link active"><a href="book.html">Books</a></li>
+          <li class="main-nav__link"><a href="#">Login</a></li>
+          <li class="main-nav__link"><a href="#">Become a member</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-main-books row">
+      <div class="col side-nav">
+        <ul class="book-categories">
+          <li class="book-category"><a href="">Romance</a></li>
+          <li class="book-category"><a href="">Science</a></li>
+          <li class="book-category"><a href="">Architecture</a></li>
+          <li class="book-category"><a href="">History</a></li>
+          <li class="book-category"><a href="">Kids</a></li>
+          <li class="book-category"><a href="">Business & Economics</a></li>
+          <li class="book-category"><a href="">Cookbooks</a></li>
+          <li class="book-category"><a href="">Computer Science</a></li>
+          <li class="book-category"><a href="">Novels</a></li>
+          <li class="book-category"><a href="">Others</a></li>
+        </ul>
+      </div>
+      <div class="col books">
+        <div class="book-detail__layout">
+          <div class="book-detail__cover-container">
+            <img
+              src="../imgs/books/chemistry-the-central-science.jpg"
+              alt=""
+              class="book-detail__cover"
+            />
+          </div>
+          <div class="book-detail__details-container">
+            <h2 class="book-title margin-bottom-small">
+              Cheistry The Central Science
+            </h2>
+            <h3 class="book-author margin-bottom-small">By : Some author</h3>
+            <p class="book-detail-text margin-bottom-small">
+              Description: Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Voluptate ducimus laudantium optio reprehenderit excepturi
+              sapiente quisquam, ullam commodi non odit quia eos sunt tenetur
+              iusto aperiam nobis ratione! Unde, quae!
+            </p>
+
+            <p class="book-detail-date margin-bottom-small">
+              Published in: June 06 2020
+            </p>
+            <p class="book-stock stock-available margin-bottom-small">
+              20 in stock
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn-primary">Issue this book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

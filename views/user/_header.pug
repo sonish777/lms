@@ -1,0 +1,21 @@
+header.main-header
+    nav.main-nav
+        .logo-container
+            p.logo Bookshelf
+        ul.main-nav__links
+            li.main-nav__link
+                a(href='/') Home
+            li.main-nav__link
+                a(href='/books') Books
+
+            - if(!user)
+                li.main-nav__link
+                    a(href='/login') Login
+                li.main-nav__link
+                    a(href='/register') Become a member
+
+            - else
+                li.main-nav__link
+                    a(href='/mybooks') My books
+                li.main-nav__link
+                    a#logout(href='#') Logout
